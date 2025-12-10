@@ -1,0 +1,31 @@
+body {
+     background-color: #9e9292;
+}
+
+.clock {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translatex(-50%) translatey(-50%);
+    /* top theke  -50% and left theke -50% */
+
+    display: flex;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.heading {
+    color: #0b0a0a;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.time{
+    background-color: rgba(39, 12, 64, 0.4);
+    color:#080808;
+    font-size: 100px;
+    width:150px;
+    margin: 0 10px;
+    text-align: center;
+}
